@@ -13,27 +13,31 @@
 
         <div class="divs">
         <h3>Name</h3>
-        <p><input type="text" id =""  name="name" placeholder="Type Your Name" required>  </p>
+        <p><input type="text" maxlength="30" id ="na"  name="name" placeholder="Type Your Name" required>  </p>
+        <div id="demo1" style="color: red;"></div>
         </div>
 
         <div class="divs">
         <h3>Email</h3>
-        <p><input type="text" id ="" name="email" placeholder="Type Your Email" required>  </p>
+        <p><input type="text" id ="ema" name="email" placeholder="Type Your Email" required>  </p>
+        <div id="demo2" style="color: red;"></div>
         </div>
 
         <div class="divs">
         <h3>Phone number</h3>
-        <p><input type="text" id =""  name="phonenumber" placeholder="Type Your Phone Number" required>  </p>
-        </div>
+        <p><input type="text" id ="phn"  name="phonenumber" placeholder="Type Your Phone Number" required>  </p>
+        <div id="demo" style="color: red;"></div>
+      </div>
         
         <div class="divs">
         <h3>Address</h3>
-        <p><input type="text" id ="" name="address" placeholder="Type Your Address" required>  </p>
+        <p><input type="text" id ="add" name="address" placeholder="Type Your Address" required>  </p>
         </div>
 
-        <input type="submit" value='Submit' class ='submit'>
+        <input type="submit" value='Submit' class ='submit'  onclick="myFunction();myFunction1();myFunction2()">
         </div>
         </form>
         
     </body>
+    <script src="contact.js"></script>
     </html>
